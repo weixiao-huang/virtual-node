@@ -7,11 +7,11 @@ replicaCount: 1
 nodeNum: 3
 disableTaint: false
 image:
-  registry: REPLACE_TO_YOUR_REGISTRY
-  repository: REPLACE_TO_YOUR_REPO
+  registry: docker.io
+  repository: huangwx/virtual-node
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "REPLACE_TO_YOUR_TAG"
+  tag: "v1.11.0"
 
 imagePullSecrets: []
 nameOverride: ""
